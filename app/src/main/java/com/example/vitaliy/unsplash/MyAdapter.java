@@ -39,7 +39,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> implem
         holder.imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(mContext, Main2Activity.class);
+                Intent intent = new Intent(mContext, fullPhotoActivity.class);
                 intent.putExtra("URLS", photo);
                 mContext.startActivity(intent);
             }

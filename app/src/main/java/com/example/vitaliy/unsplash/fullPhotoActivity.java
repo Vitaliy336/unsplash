@@ -13,7 +13,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class Main2Activity extends AppCompatActivity {
+public class fullPhotoActivity extends AppCompatActivity {
     @BindView(R.id.Photo)
     ImageView img;
     @BindView(R.id.Like)
