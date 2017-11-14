@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/latest"
+        android:orderInCategory="@integer/orderC"
+        android:title="Latest"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/oldest"
+        android:orderInCategory="@integer/orderC"
+        android:title="Oldest"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/popular"
+        android:orderInCategory="@integer/orderC"
+        android:title="Popular"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:title="Search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        tools:ignore="HardcodedText" />
+
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="BLW">95dp</dimen>
+    <dimen name="BLH">41dp</dimen>
+    <dimen name="photoMT">5dp</dimen>
+    <dimen name="LM">8dp</dimen>
+</resources>

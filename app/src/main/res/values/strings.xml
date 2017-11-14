@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">unsplash</string>
+    <string name="search_hint">search</string>
+</resources>
